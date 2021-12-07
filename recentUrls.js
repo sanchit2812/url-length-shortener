@@ -1,4 +1,4 @@
-axios.get('http://localhost:3000/urls')
+axios.get('https://url-length-shortener.herokuapp.com/urls')
     .then((res) => {
         const table = document.querySelector('#recent-urls-table-id');
         Object.keys(res.data).forEach((key) => {
@@ -6,7 +6,7 @@ axios.get('http://localhost:3000/urls')
             const row = table.insertRow(1);
             const cell1 = row.insertCell(0);
             const cell2 = row.insertCell(1);
-            cell1.innerHTML = `<a target="_blank" href='http://localhost:3000/urls/${key}'>http://localhost:3000/urls/${key}</a>`;
+            cell1.innerHTML = `<a target="_blank" href='https://url-length-shortener.herokuapp.com/urls/${key}'>https://url-length-shortener.herokuapp.com/urls/${key}</a>`;
             cell2.innerHTML = `<a target="_blank" href=${value}>${value}</a>`;
         });
     })
