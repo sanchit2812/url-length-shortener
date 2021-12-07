@@ -18,7 +18,6 @@ window.onload = ()=>{
             return;
         }
         if(key == 0){
-//             const request = new Request('http://localhost:3000/urls', {
             const request = new Request('https://url-length-shortener.herokuapp.com/urls', {
                 method: 'POST',
                 headers: new Headers({
