@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener -ERROR</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Lato:wght@300&display=swap" rel="stylesheet">
+    <script>
+        window.onload = ()=>{
+            const resetButton = document.querySelector("#go-back-and-try-again-button-id");
+            resetButton.onclick = function () {
+                location.href = "index.html";
+            };
+        };
+    </script>
+
+</head>
+<body class="index-body" style="font-family: 'Arvo', serif;">
+
+<header>
+    <section class="header-section-class-2">
+        
+        <div class="navbar-2">
+            <a href="index.html">Short URL</a>
+        </div>
+
+    </section>
+</header>
+
+
+<main>
+    <div class="above-upper-container">
+        <br>
+        <br>
+        
+        <h2>An error occurred to generate the URL</h2>
+        <p>The <b>URL is not valid</b>, make sure the URL you tried to shorten is correct.</p>
+        <br>
+        <p>Possible errors:</p>
+        <ul>
+            <li>Check if the domain is correct</li>
+            <li>Check if the site is online</li>
+            <li>Check the length of the url is not too small</li>
+            <li>Check the address bars and punctuation</li>
+            <li>The URL may have been blocked</li>
+            <li>The url may have been reported</li>
+            <li>Make sure the url does not contain spam</li>
+        </ul>
+
+        <div id="URL-Input-Text-Box">
+            <input type="button" id="go-back-and-try-again-button-id" class="longUrl-button-class" value="Go back and try again">
+        </div>
+
+    </div>
+    
+</main>
+
+<footer class="footer-class">
+    <p>Copyright &copy; 2021 Made with &#10084;&#65039; by Sanchit</p>
+</footer>
+
+</body>
+</html>

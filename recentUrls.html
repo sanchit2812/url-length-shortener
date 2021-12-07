@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener- Recent Urls</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Lato:wght@300&display=swap" rel="stylesheet">
+    <script>
+        window.onload = ()=>{
+            const resetButton = document.querySelector("#go-back-and-try-again-button-id");
+            resetButton.onclick = function () {
+                location.href = "index.html";
+            };
+        };
+    </script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</head>
+<body class="index-body" style="font-family: 'Arvo', serif;">
+
+<header>
+    <section class="header-section-class-2">
+        
+        <div class="navbar-2">
+            <a href="index.html">Short URL</a>
+        </div>
+
+    </section>
+</header>
+
+
+<main>
+    <div class="above-upper-container">
+        <br><br>
+        <h2>Recent Shortened URLs</h2>
+    </div>    
+    
+    <table id="recent-urls-table-id">
+        <tr>
+            <td style="text-align: center; color: black; font-size: 20px;">ShortUrl</td>
+            <td style="text-align: center; color: black; font-size: 20px;">LongUrl</td>
+        </tr>
+    </table>
+    
+    <div class="above-upper-container">
+        <input type="button" id="go-back-and-try-again-button-id" class="longUrl-button-class" value="Go back and try again">    
+    </div>
+    
+</main>
+
+<footer class="footer-class">
+    <p>Copyright &copy; 2021 Made with &#10084;&#65039; by Sanchit</p>
+</footer>
+
+<!-- <script src="./index.js"></script> -->
+<script src="./recentUrls.js"></script>
+
+</body>
+</html>
