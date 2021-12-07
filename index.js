@@ -18,7 +18,8 @@ window.onload = ()=>{
             return;
         }
         if(key == 0){
-            const request = new Request('https://url-length-shortener.herokuapp.com/urls', {
+            console.log("yes-index.js");
+                const request = new Request('https://url-length-shortener.herokuapp.com/urls',{
                 method: 'POST',
                 headers: new Headers({
                 'Content-Type': 'application/json'

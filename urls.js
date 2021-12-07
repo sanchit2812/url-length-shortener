@@ -27,7 +27,6 @@ router.post("/", (req, res)=>{
     const longUrl = req.body;
     const shortUrlId = shortid.generate();
     urls[shortUrlId] = longUrl.longUrl;
-
     res.send({shortUrl : `https://url-length-shortener.herokuapp.com/urls/${shortUrlId}`});
 });
 
