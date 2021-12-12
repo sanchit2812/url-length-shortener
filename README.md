@@ -1,6 +1,6 @@
 # URL - Shortener
 
-## Demo link: <a target="_blank" href='https://tinyurl.netlify.app/index.html'> Url Shortener</a>
+## Demo link: <a target="_blank" href='https://tinyurl.netlify.app/index.html'> tinyUrl</a>
 
 ## This web-app has the following features:
 
