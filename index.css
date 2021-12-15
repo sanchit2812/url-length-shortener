@@ -52,6 +52,11 @@ table tr {
     }
 }
 
+@media screen and (max-width: 500px){
+    .upper-container{
+        margin-left: 80px;
+    }
+}
 
 .below-container{
     margin-top: 30px;
@@ -73,6 +78,11 @@ table tr {
     }
 }
 
+@media screen and (max-width: 500px){
+    .below-container{
+        margin-left: 80px;
+    }
+}
 
 .below-container-heading{
     margin-top: 30px;
@@ -92,6 +102,11 @@ table tr {
     }
 }
 
+@media screen and (max-width: 500px){
+    .below-container-heading{
+        margin-left: 80px;
+    }
+}
 
 
 .flex-box-container{    
@@ -119,8 +134,14 @@ table tr {
 }
 @media screen and (max-width: 770px){
     .flex-box-items{
-
         height: 150px;
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .flex-box-items{
+        height: 300px;
         width: 35%;
     }
 }
