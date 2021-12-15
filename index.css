@@ -55,7 +55,7 @@ table tr {
 @media screen and (max-width: 500px){
     .upper-container{
         margin-left: 80px;
-        width: 80%;
+        width: 70%;
     }
 }
 
@@ -82,7 +82,7 @@ table tr {
 @media screen and (max-width: 500px){
     .below-container{
         margin-left: 80px;
-        width: 80%;
+        width: 70%;
     }
 }
 
@@ -107,7 +107,7 @@ table tr {
 @media screen and (max-width: 500px){
     .below-container-heading{
         margin-left: 80px;
-        width: 80%;
+        width: 70%;
     }
 }
 
