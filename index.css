@@ -54,7 +54,7 @@ table tr {
 
 @media screen and (max-width: 550px){
     .upper-container{
-        margin-left: 80px;
+        margin-left: 70px;
         width: 70%;
     }
 }
@@ -81,7 +81,7 @@ table tr {
 
 @media screen and (max-width: 550px){
     .below-container{
-        margin-left: 80px;
+        margin-left: 70px;
         width: 70%;
     }
 }
@@ -106,7 +106,7 @@ table tr {
 
 @media screen and (max-width: 550px){
     .below-container-heading{
-        margin-left: 80px;
+        margin-left: 70px;
         width: 70%;
     }
 }
@@ -274,7 +274,7 @@ a:hover {
 
 @media screen and (max-width: 550px){
     .header-section-class {
-        margin-left: 80px;
+        margin-left: 70px;
     }
 
     .header-section-class a {
