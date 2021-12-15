@@ -52,7 +52,7 @@ table tr {
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
     .upper-container{
         margin-left: 80px;
         width: 70%;
@@ -79,7 +79,7 @@ table tr {
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
     .below-container{
         margin-left: 80px;
         width: 70%;
@@ -104,7 +104,7 @@ table tr {
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
     .below-container-heading{
         margin-left: 80px;
         width: 70%;
@@ -142,7 +142,7 @@ table tr {
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
     .flex-box-items{
         height: 300px;
         width: 35%;
@@ -272,7 +272,7 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
     .header-section-class {
         margin-left: 80px;
     }
@@ -301,7 +301,7 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
     .longUrl-input-class{
         height: 30px;
         width: 180px;
