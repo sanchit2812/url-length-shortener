@@ -15,37 +15,23 @@ body{
 }
 
 table {
-    width: 50%;
-    margin-left: 420px;
+    width: 80%;
 	border-collapse: collapse;
     border: 1px black solid;
 }
 
-@media screen and (max-width: 1070px){
-    table {
-        margin-left: 220px;        
-    }
-}
-@media screen and (max-width: 770px){
-    table {
-        margin-left: 120px;
-    }
-}
-
-@media screen and (max-width: 550px){
-    table {
-        margin-left: 70px;
-        width: 70%;
-    }
-}
-
-
 table td {
-	padding: 10px;
+	padding: 4px;
     width: 50%;
     color: darkblue;
     border: 1px solid black;
 }
+@media screen and (max-width: 550px){
+    table {
+        width: 50%;
+    }
+}
+
 table tr {
 	background-color: white;
 }
