@@ -265,7 +265,17 @@ a:hover {
     }
 
     .header-section-class a {
-        font-size: 36px;
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .header-section-class {
+        margin-left: 80px;
+    }
+
+    .header-section-class a {
+        font-size: 32px;
     }
 }
 
@@ -273,7 +283,6 @@ a:hover {
     height: 50px;
     width: 500px;
 }
-
 
 @media screen and (max-width: 1070px){
     .longUrl-input-class{
@@ -286,5 +295,12 @@ a:hover {
     .longUrl-input-class{
         height: 30px;
         width: 250px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .longUrl-input-class{
+        height: 30px;
+        width: 180px;
     }
 }
